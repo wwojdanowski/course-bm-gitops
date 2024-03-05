@@ -19,7 +19,7 @@ spec:
       imagePullSecrets:
         - name: github
       containers:
-        - image: k8smaestro/bm-passenger:1.0.0
+        - image: ghcr.io/wwojdanowski/bm-passenger:1.0.0
           name: passenger
           ports:
             - containerPort: 8080
