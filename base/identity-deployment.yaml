@@ -17,7 +17,7 @@ spec:
         app: identity
     spec:
       containers:
-        - image: k8smaestro/bm-identity:1.0.0
+        - image: ghcr.io/wwojdanowski/bm-identity:1.0.0
           name: identity
           ports:
             - containerPort: 8080

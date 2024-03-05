@@ -17,7 +17,7 @@ spec:
         app: booking
     spec:
       containers:
-        - image: k8smaestro/bm-booking:1.0.0
+        - image: ghcr.io/wwojdanowski/bm-booking:1.0.0
           name: booking
           ports:
             - containerPort: 8080
