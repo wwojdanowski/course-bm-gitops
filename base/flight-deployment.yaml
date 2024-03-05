@@ -17,7 +17,7 @@ spec:
         app: flight
     spec:
       containers:
-        - image: k8smaestro/bm-flight:1.0.0
+        - image: ghcr.io/wwojdanowski/bm-flight:1.0.0
           name: flight
           ports:
             - containerPort: 8080
